@@ -1,0 +1,20 @@
+{
+  "name": "fuzzy-logic",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "fusejs": "node fusejs.js",
+    "fuzzysearch": "node fuzzysearch.js",
+    "quickscore": "node quickscore.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "fuse.js": "^6.6.2",
+    "fuzzy-search": "^3.2.1",
+    "quick-score": "^0.2.0"
+  }
+}
